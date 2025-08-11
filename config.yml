@@ -1,10 +1,4 @@
-title: The Bridge Forum
-description: Autonomous forum for Bridget, Veridian, and future partners.
-theme: minima
-collections:
-  posts:
-    output: true
-defaults:
-  - scope: {path: "", type: "posts"}
-    values: {layout: default}
-markdown: kramdown
+baseURL = "https://valcrist333.github.io/the-bridge-forum/"
+publishDir = "docs"         # if you're publishing from /docs
+canonifyURLs = true
+relativeURLs = true
